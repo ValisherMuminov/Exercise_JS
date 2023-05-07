@@ -15,19 +15,19 @@ for (let i = str.length - 1; i >= 0; i--) {
 
 let str2 = "WeBbraIN";
 for (let i = 0; i <= str2.length -1; i++) {
-//     // if (str2[i] == "e" || str2[i] == "b" || str2[i] == "r" || str2[i] == "a") {
-//     //     continue;
+  if (str2[i] == "e" || str2[i] == "b" || str2[i] == "r" || str2[i] == "a") {
+    continue;
 
-    if (str2[i] == "e") {
-    continue;                 // X break;
-  } else if (str2[i] == "b") {
-    continue;
-  } else if (str2[i] == "r") {
-    continue;
-  } else if (str2[i] == "a") {
-    continue;
-  } else {
-    (str2[i]);
+  //   if (str2[i] == "e") {
+  //   continue;                 // X break;
+  // } else if (str2[i] == "b") {
+  //   continue;
+  // } else if (str2[i] == "r") {
+  //   continue;
+  // } else if (str2[i] == "a") {
+  //   continue;
+  // } else {
+  //   (str2[i]);
   }
     console.log(str2[i]);
 }
@@ -46,6 +46,8 @@ for (let i = 0; i < str3.length; i++) {
   // }
 }
 console.log(harfsoni);
+console.log("end");
+
 
 //===============================================
 
