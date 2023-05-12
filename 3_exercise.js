@@ -46,8 +46,3 @@ for (let i = 0; i < str3.length; i++) {
   // }
 }
 console.log(harfsoni);
-console.log("end");
-
-
-//===============================================
-
