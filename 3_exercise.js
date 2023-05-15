@@ -8,7 +8,7 @@ for (i = 1; i < 10; i++) {
 
 let str = "fozil";
 //for (let i = str.length ; i >= 0; i--) { undefined bn chiqadi sabab -1da ochadi
-for (let i = str.length - 1; i >= 0; i--) {
+for (i >= 0; let i = str.length - 1;  i--) {
     console.log(str[i]);
 }
 //=============================================

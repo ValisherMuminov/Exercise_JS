@@ -4,60 +4,60 @@ let x = 4.123654
 function testtoFixed(x) {
     return x.toFixed(3);
 };
-console.log(testtoFixed(x));
+testtoFixed(x);
 // 10  butun son
 function testparseInt(son) {
     return parseInt(son);
 };
-console.log(testparseInt(5.12));
+testparseInt(5.12);
 // 9 butun son
 function testparseInt(son) {
     return Number.parseInt(son);
 };
-console.log(testparseInt(6.12));
+testparseInt(6.12);
 // 8 butun yki butunmas son
 function testisInteger(son) {
     return Number.isInteger(son);
 };
-console.log(testisInteger(6.12));
+testisInteger(6.12);
 // 7 qoldiqli son bosayla 1 qoshadi
 function testfceil(son) {
   return Math.ceil(son);
 }
-console.log(testfceil(2.00125));
+testfceil(2.00125);
 // 6 butun son
 function testfloor(son) {
   return Math.floor(son);
 }
-console.log(testfloor(2.125));
+testfloor(2.125);
 // 5 yaxlit son
 function testround(son) {
   return Math.round(son);
 }
-console.log(testround(27.5));
+testround(27.5);
 // console.log(testround(27.3));
 // 4 Cub
 function testcbrt(son) {
   return Math.cbrt(son);
 }
-console.log(testcbrt(27));
+testcbrt(27);
 // 3 musbat chiqarish
 function testabs(son) {
   return Math.abs(son);
 }
-console.log(testabs(-15));
+testabs(-15);
 // 2 ildizdan chiqarish
 function testsqrt(son) {
     //return son ** 0.5;
     return Math.sqrt(son);
 }
-console.log(testsqrt(81));
+testsqrt(81);
 // 1 darajaga kotarish
 function testPow(son, daraja) {
 //   return son ** daraja;
      return Math.pow(son, daraja);
 }
-console.log(testPow(7, 2));
+testPow(7, 2);
 // Functions
 // function declaration => hoisting buladi,
 // function expression => hoisting bulmaydi,
