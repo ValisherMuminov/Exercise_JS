@@ -1,5 +1,22 @@
 
 
+// sozni kopaytir 10ga,
+// let str = "Webbrain";
+// function str10(str) {
+//     return str.repeat(10);
+// }
+// console.log(str10(str));
+// --------------------------------
+// web ni IT ga almashtir
+let str = "webBrain";
+function ozg(str) {
+      return str.replace('webBrain', 'ITBrain');
+}
+console.log(ozg(str));
+
+
+// --------------------------------
+
 // let str2 = "WeBbraIN";
 // function kesish(str2) {
 //   let result = "";
