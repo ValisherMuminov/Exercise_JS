@@ -10,7 +10,9 @@
 // web ni IT ga almashtir
 let str = "webBrain";
 function ozg(str) {
-      return str.replace('webBrain', 'ITBrain');
+    str = str.repeat(10);
+    str = str.replace('webBrain', 'ITBrain');
+    return str
 }
 console.log(ozg(str));
 
