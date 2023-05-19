@@ -8,13 +8,13 @@
 // console.log(str10(str));
 // --------------------------------
 // web ni IT ga almashtir
-let str = "webBrain";
-function ozg(str) {
-    str = str.repeat(10);
-    str = str.replace('webBrain', 'ITBrain');
-    return str
-}
-console.log(ozg(str));
+// let str = "webBrain";
+// function ozg(str) {
+//     str = str.repeat(10);
+//     str = str.replace('webBrain', 'ITBrain');
+//     return str
+// }
+// console.log(ozg(str));
 
 
 // --------------------------------
@@ -32,6 +32,8 @@ console.log(ozg(str));
 // };
 // let kesishResult = kesish(str2);
 // console.log(kesishResult);
+//------------------------------------
+
 
 
 // ================================
@@ -127,6 +129,14 @@ console.log(ozg(str));
 // }
 // let result = withReplace(str1);
 // console.log(result);
+//---------------------------------
+// let str1 = 'web';
+// let str2 = 'brain';
+// let newStr = str1;
+// str1 = str2;
+// str2 = newStr;
+// console.log(str2);
+// console.log(str1);
 
 //=======================================
 // Oxirgi xarfni chiqarish
@@ -138,6 +148,19 @@ console.log(ozg(str));
 // let resStr1 = "Fozil";
 // let response = strEndsWith(resStr1);
 // console.log(response);
+// -----------------------------------
+// let str = 'fozil';
+// console.log(str.includes('l'));
+// console.log(str.endsWith('l'));
+// console.log(str.trim().endsWith("l")); // white space bolsa
+// -----------------------------------
+// let str = "     foziL          ";
+// // console.log(str.toLowerCase().endsWith('l'));
+// // console.log(str.trim().toLowerCase()[str.length - 1] === 'l');
+// let newStr = str.trim().toLowerCase();
+// console.log(newStr[newStr.length - 1] == 'l');
+// console.log(newStr[newStr.length - 1]);
+//=======================================
 
 // String:
 // index => xar doim 0 dan boshlanadi
