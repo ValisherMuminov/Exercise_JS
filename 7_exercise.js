@@ -5,16 +5,16 @@
 // ============< 1 >=================
 // object keylarini toping
 
-// let obj={
-//     id:1,
-//     name:"WebBrain"
-// }
-// function findKey(obj) {
-//     for (let key in obj) {
-//         console.log(key);
-//     }
-// };
-// findKey(obj);
+let obj={
+    id:1,
+    name:"WebBrain"
+}
+function findKey(obj) {
+    for (let key in obj) {
+        console.log(key);
+    }
+};
+findKey(obj);
 
 // ============< 2 >=================
 // object valuelarining raqamga tenglarini toping
@@ -55,7 +55,7 @@
 // }
 // console.log(findBoolean(obj));
 
-// ============< 3 >=================
+// ============< 4 >=================
 // age Yigindisini  topish
 // let person = {
 //   id: 1,
@@ -81,29 +81,40 @@
 //   return totalAge;
 // }
 // console.log(ageYigindisi(person));
+// let sum = 0;
+// while (true) {
+    
+//     if (obj) {
+//         sum += obj.age;
+//     } else {
+//         break
+//     }
+//     obj = obj.child
+// }
+// console.log(sum);
 
-// ============< 3 >=================
+// ============< 5 >=================
 //  talaba bazaga kirishi kk shunday funksiya yarating u parol va name ni jonatsin. agar parol bn name bazadagi
 //  parol bn name ga togri kelsa consoleda hush kelibsiz aks holda parol yoki name  xato chiqsin
 
-let person = {
-  id: 1,
-  name: "Valisher",
-  surname: "Muminov",
-  ielts: 5.5,
-  student: true,
-  parol: 101,
-};
+// let person = {
+//   id: 1,
+//   name: "Valisher",
+//   surname: "Muminov",
+//   ielts: 5.5,
+//   student: true,
+//   parol: 101,
+// };
 
-function kirish(parol, name) {
-  if (parol === person.parol && name === person.name) {
-    console.log("Hush kelibsiz!");
-  } else {
-    console.log("Parol yoki ism xato!");
-  }
-}
+// function kirish(parol, name) {
+//   if (parol === person.parol && name === person.name) {
+//     console.log("Hush kelibsiz!");
+//   } else {
+//     console.log("Parol yoki ism xato!");
+//   }
+// }
 
-kirish(101, "Valisher");
+// kirish(101, "Valisher");
 
 
 
