@@ -18,26 +18,26 @@
 // ============< 2 >=================
 // search qilish kerak
 
-// let users = [
-//   { id: 1, name: "Sobir" },
-//   { id: 1, name: "Nodir" },
-//   { id: 1, name: "Bobir" },
-//   { id: 1, name: "Odil" }
-// ];
-// const onSearch = (input) => {
-//     let newArr = [];
-//     for (let i = 0; i < users.length; i++) {
-//         // if (users[i].name.includes(input)) {
-//         if (
-//           users[i].name.includes(input.toLowerCase()) ||
-//           users[i].name.includes(input.toUpperCase())
-//         ) {
-//           newArr.push(users[i]);
-//         }
-//     }
-//     console.log(newArr);
-// }
-// onSearch('O');
+let users = [
+  { id: 1, name: "Sobir" },
+  { id: 1, name: "Nodir" },
+  { id: 1, name: "Bobir" },
+  { id: 1, name: "Odil" }
+];
+const onSearch = (input) => {
+    let newArr = [];
+    for (let i = 0; i < users.length; i++) {
+        // if (users[i].name.includes(input)) {
+        if (
+          users[i].name.includes(input.toLowerCase()) ||
+          users[i].name.includes(input.toUpperCase())
+        ) {
+          newArr.push(users[i]);
+        }
+    }
+    console.log(newArr);
+}
+onSearch('O');
 
 // ============< 3 >=================
 
@@ -149,23 +149,24 @@
 // }
 // deleteMeva("olma");
 //----------------------------------
-var arr = ["olma", "nok", "banan", "olma", "nok", "tarvuz"];
+// var arr = ["olma", "nok", "banan", "olma", "nok", "tarvuz"];
 
-function deleteMeva(nom) {
-  var count = 0;
+// function deleteMeva(nom) {
+//   var count = 0;
 
-  for (var i = arr.length - 1; i >= 0; i--) {
-    if (arr[i] === nom) {
-      arr.splice(i, 1);
-      count++;
-    }
-  }
+//   for (var i = arr.length - 1; i >= 0; i--) {
+//     if (arr[i] === nom) {
+//       arr.splice(i, 1);
+//       count++;
+//     }
+//   }
 
-  console.log(arr);
-}
+//   console.log(arr);
+// }
 
-deleteMeva("olma");
+// deleteMeva("olma");
 
+// ============< 7 >=================
 
 
 
