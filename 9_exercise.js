@@ -62,11 +62,24 @@ let mapped = cars.map((value) => {
 });
 
 
-// let arr = [4, 10, 888, 7, 1, null, 99, null, 100];
-// let filteredNum = arr.filter((value) => value !== null).map((value) => value);
-// let filteredNull = arr.filter((value) => value === null).map((value) => value);
+// let arr = [[12, 23, null,32, 34, null,  null, null]];
+// let filteredNum = arr.filter((value) => value !== null).sort();
+// let filteredNull = arr.filter((value) => value === null);
 // let result = filteredNum.concat(filteredNull);
 
 // console.log(result);
 
+// let array = [12, 23, null, 34, null, 32, null, null];
 
+// let sorted = [...array].sort((a, b) => {
+//   if (a === null && b === null) {
+//     return 0;
+//   } else if (a === null) {
+//     return 1;
+//   } else if (b === null) {
+//     return -1;
+//   } else {
+//     return a.index - b.index
+//   }
+// });
+// console.log(sorted);
