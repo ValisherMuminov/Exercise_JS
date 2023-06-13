@@ -9,13 +9,13 @@ for (let i = 1; i <= 10; i++) {
 //////////////////////////////////////////////////////////
 // 3-removing duplicates without using new Set() [1, 1, 2, 2] => [1, 2]
 
-function removeDuplicates(arr) {
+function removeDuplicates2(arr) {
   return [...new Set(arr)];
 }
 
-const numbers = [1, 1, 2, 2];
-const uniqueNumbers = removeDuplicates(numbers);
-console.log(uniqueNumbers);
+const numbers1 = [1, 1, 2, 2];
+const uniqueNumberss = removeDuplicates2(numbers1);
+console.log(uniqueNumberss);
 //------------------------------------------
 function removeDuplicates(arr) {
   const uniqueArr = [];
